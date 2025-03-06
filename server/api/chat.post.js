@@ -25,6 +25,7 @@ export default defineEventHandler(async (event) => {
 	console.log('Constructed messages:', messages);
 
 
+
     // Call the OpenAI Chat Completion API
     const req = await fetch('https://api.openai.com/v1/chat/completions', {
         method: 'POST',
